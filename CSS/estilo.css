@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*Estilizando Valores Padrão da página*/
+.secao{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.area,.paragrafo-destaque{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.area{
+    color: #3c184e;
+}
+
+.texto-destaque{
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/*Estilização do topo da página*/
+
+/*Parte 01, logo*/
+.topo{
+    background-image: url(../IMG/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.logo-p-01{
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.logo-p-01 img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.logo-p-02{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Parte 02, caixa com fundo transparente*/
+
+.background{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 0 32px #1f26875e;
+}
+
+.p-link{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    transition: background-color 0.5s;
+}
+
+.p-link:hover{
+    background-color: #68268a;
+}
+.p-link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.p-link a img{
+    width: 20px;
+}
+
+
+/*EStilização da segunda seção da página com lista não ordenada*/
+
+.area ul{
+    list-style-type: square;
+}
+
+.area ul li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.galeria img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+
+/*Estilização das seções 3 e 5, com backgragound color de fundo e área de links*/
+
+.redes-sociais,.rodape{
+    background-color: #3c184e;
+}
+
+.paragrafo-destaque{
+    
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+.redes-sociais img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.redes-sociais img:hover{
+    background-color: #68268a;
+}
+
+/*Estilização da seção 4*/
+
+
+.logomarcas{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.logomarcas img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+
+/*Estilização da seção 6*/
+
+.mapa-iframe p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin:  0 0 45px 0;
+}
+
+.mapa{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 450px;
+    border: none;
+    box-shadow: 0 0 32px #1f26875e;
+    border-radius: 20px;
+}
+
+
+/*Estilização do rodapé*/
+
+.rodape{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.rodape p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
